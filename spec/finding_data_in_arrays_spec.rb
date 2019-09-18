@@ -13,8 +13,8 @@ describe 'Finding data' do
     it 'takes in an array and a value and returns the index of that value' do
       expect(find_element_index(scale,2)).to eq(0)
       expect(find_element_index(scale,2)).to eq(0)
-      expect(find_element_index(scale_2,5)).to eq(0)
-      expect(find_element_index(scale_2,6)).to eq(0)
+      expect(find_element_index(scale_2,2)).to eq(0)
+      expect(find_element_index(scale_2,2)).to eq(0)
     end
 
     it 'if the value is not found, returns nil' do

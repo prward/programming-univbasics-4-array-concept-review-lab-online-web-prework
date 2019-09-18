@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
-  array.find_index {|e| array.find_index(e)}
+  array.length { |array|
+  puts array[index]
 end
 
 def find_max_value(array)
